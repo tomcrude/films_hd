@@ -1,0 +1,216 @@
+body{
+    overflow-x: hidden;
+    background: #080f28;
+    color:rgb(255,255,255);
+    font-family: sans-serif;
+    height: 100%;
+}
+
+a:hover{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+.imag {
+    border-radius: 8%;
+    box-shadow: 58px 22px 44px 7px rgba(0,0,0,0.75);  
+    transition: 2s filter; 
+    background-attachment: fixed;
+}
+
+.see {
+    padding: 7px;
+    color:rgb(255,255,255);
+    border: 2px solid rgb(0,0,0);
+    background: rgba(130, 144, 223, 0.603);
+    border-radius: 2%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.see:hover {
+    background: rgba(208, 205, 255, 0.603);
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.home {
+    color:rgb(255,255,255);
+}
+.house{
+    transform: translatex(2.5%);
+}
+
+.home:hover{
+    text-decoration: none;
+    color: rgb(190,190,190);
+    cursor: pointer;
+}
+
+div{
+    margin-top: 20px
+}
+
+div:first-child{
+    margin-top: 0;
+}
+
+.foote {
+    color: rgb(200,200,200);
+    text-align: center;
+    transform: translatex(2%);
+}
+
+.copy{
+    transform: translateY(10px);
+}
+
+.number{
+    color: rgb(255,255,255);
+}
+
+.number:hover{
+    color: rgb(255,255,255);
+    text-decoration:none;
+}
+
+.number-2{
+    color: rgb(83, 83, 83);
+}
+
+.number-2:hover{
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+
+.foot-a{
+    color:rgb(184, 178, 178);
+}
+
+.inactive {
+    display:none;
+}
+
+.active {
+    display:block;
+}
+
+.insert{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    margin: auto;
+}
+
+.inputs-films input{
+    height: 45px;
+    font-size: 19px;
+}
+
+.pagea{
+    transform: translate(5%);
+}
+.number:hover, .number-2:hover{
+    cursor: pointer;
+}
+
+.look{
+    background: rgb(83, 83, 83);
+    border-radius: 10%;
+    border: rgb(255, 255, 255) solid 2px;
+    padding: 15px;
+}
+
+.pad{
+    font-size: 26px;
+}
+.decoration{
+    text-decoration: underline;
+}
+#xd{
+    visibility: hidden;
+}
+.imag:hover{
+    transition: 1s filter;
+    filter: blur(1.5px);
+    filter: invert(10%);
+}
+
+@media screen and (min-width: 700px){
+    .pages-pc {
+        text-align: center;
+    }
+    .foote, .house{
+        transform: translatex(0%);
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+    .over {
+        text-align: center;
+        justify-content: center;
+        transform: translatey(101px);
+    }
+    .gain {  
+        
+        height: 340px;
+
+    }
+    .gain p {
+        font-size: 25px;
+        margin-top: 4px; 
+    }
+  
+    .page {
+        text-align: center;
+        position: absolute;
+        height: 400px;
+        width: 650px;
+        margin-left: 500px;
+        transform: translateY(-450px);
+    }
+
+    .page p {
+        font-size: 30px;
+    }
+
+    .see {
+        align-self: center;
+    }
+
+    .inputs-films input{
+        height: 30px;
+        font-size: 16px;
+    }
+
+    div .sub{
+        height: 55px;
+        font-size: 30px;
+    }
+    div .sub:hover{
+        background: rgb(180, 180, 180);
+    }
+    .look{
+        background: rgb(83, 83, 83);
+        border-radius: 1%;
+        border: rgb(255, 255, 255) solid 2px;
+        padding: 15px;
+    }
+
+    .pad{
+        font-size: 32px;
+    }
+    .pages-pc {
+        text-align: start;
+    }
+    .pagea{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+    }
+    .number:hover, .number-2:hover{
+        color: rgb(255, 255, 255);
+    }
+}
